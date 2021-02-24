@@ -1,10 +1,13 @@
-//Welcome Address Book system
 public class AddressBookSystem {
 	public static void main(String[] args) {
 		Address address=new Address("Banglore","Karnataka",577124);
-		Contacts person=new 
-Contacts("B,R","Rachana",address,1234567890,"br19rachana@gmail.com");
-		System.out.println(person.toString());
+		Contacts person1=new Contacts("B,R","Rachana",address,1234567890,"br19rachana@gmail.com");
+		Contacts person2 =new Contacts("Disha","Kanavadhe",address,1357803456,"disha@gmail.com");
+		
+		System.out.println(person1.toString());
+		System.out.println(person2.toString());
+
+		
 	}
 }
 
@@ -54,10 +57,8 @@ class Contacts
 
 	@Override
 	public String toString() {
-		return "AddressBookSystem [firstName=" + firstName + ", lastName=" + 
-lastName + ", contact=" + contact
-				+ ", phone_number=" + phone_number + ", email=" + 
-email + "]";
+		return "AddressBookSystem [firstName=" + firstName + ", lastName=" + lastName + ", contact=" + contact
+				+ ", phone_number=" + phone_number + ", email=" + email + "]";
 	}
 }
 
