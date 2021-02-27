@@ -7,8 +7,28 @@ public class Address {
 		this.state = state;
 		this.zip = zip;
 	}
+//<<<<<<< UC3-editExitingUser
+
+
+	public void setCity(String city) {
+		this.city = city;
+	}
+
+
+	public void setState(String state) {
+		this.state = state;
+	}
+
+
+	public void setZip(int zip) {
+		this.zip = zip;
+	}
+
+
+//
 	
 	
+//>>>>>>> master
 	public String getCity() {
 		return city;
 	}
@@ -25,7 +45,11 @@ public class Address {
 	public String toString() {
 		return "Address [city=" + city + ", state=" + state + ", zip=" + zip + "]";
 	}
+//<<<<<<< UC3-editExitingUser
+
+//=======
 	
+//>>>>>>> master
 
 
 }
